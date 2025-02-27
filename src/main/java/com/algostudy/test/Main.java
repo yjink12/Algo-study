@@ -20,7 +20,7 @@ public class Main {
 //        RecursionExample recursionExample = new RecursionExample();
 //        recursionExample.sprout();
 
-        /* 1. 새싹 */
+        /* 1. 새싹부터 */
         // 조건
         ConditionExample conditionExample = new ConditionExample();
 //        conditionExample.comparison();
