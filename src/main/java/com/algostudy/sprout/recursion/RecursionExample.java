@@ -1,4 +1,4 @@
-package com.algostudy.recursion;
+package com.algostudy.sprout.recursion;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.algostudy.condition;
+package com.algostudy.sprout.condition;
 
 import java.util.Scanner;
 

@@ -1,9 +1,11 @@
 package com.algostudy.test;
 
-import com.algostudy.Io.IOExample;
-import com.algostudy.condition.ConditionExample;
-import com.algostudy.recursion.RecursionExample;
-import com.algostudy.repetition.RepetitionExample;
+import com.algostudy.sprout.Io.IOExample;
+import com.algostudy.sprout.array.ArrayExample;
+import com.algostudy.sprout.condition.ConditionExample;
+import com.algostudy.sprout.func.FuncExample;
+import com.algostudy.sprout.repetition.RepetitionExample;
+import com.algostudy.sprout.string.StringExample;
 
 import java.io.IOException;
 
@@ -45,6 +47,30 @@ public class Main {
 
         // 빠른 입출력
         IOExample ioExample = new IOExample();
-        ioExample.IOAB();
+//        ioExample.IOAB();
+
+        // 배열
+        ArrayExample arrayExample = new ArrayExample();
+//        arrayExample.Xsmaller();
+//        arrayExample.count();
+//        arrayExample.homeworkNotYet();
+//        arrayExample.matrixAddition();
+
+        // 문자열
+        StringExample stringExample = new StringExample();
+//        stringExample.ASCII();
+//        stringExample.wordLength();
+//        stringExample.wordLength();
+//        stringExample.upperLowerCase();
+//        stringExample.gradeCal();
+//        stringExample.charAndString();
+//        stringExample.printOrigin();
+        stringExample.stringgg();
+
+        // 함수
+        FuncExample funcExample = new FuncExample();
+//        funcExample.strangeSymbol();
+//        funcExample.verificationNumber();
+
     }
 }

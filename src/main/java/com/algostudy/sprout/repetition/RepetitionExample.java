@@ -1,4 +1,4 @@
-package com.algostudy.repetition;
+package com.algostudy.sprout.repetition;
 
 import java.util.ArrayList;
 import java.util.Scanner;

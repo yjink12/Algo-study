@@ -1,4 +1,4 @@
-package com.algostudy.Io;
+package com.algostudy.sprout.Io;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -14,13 +14,15 @@ import java.util.StringTokenizer;
  * -----------------------------------------------------------
  * 2025-03-04-004        admin       최초 생성
  */
-public class IOExample {/**
- *  백준 15552
- *   - 빠른 A+B
- *   - 입출력 방식이 느리면 시간초과가 날 수 있음
- *      => BufferedReader와 BufferedWriter 사용
- *         BufferedWriter.flush는 맨 마지막에 한 번 실행
- */
+public class IOExample {
+
+  /**
+   *  백준 15552
+   *   - 빠른 A+B
+   *   - 입출력 방식이 느리면 시간초과가 날 수 있음
+   *      => BufferedReader와 BufferedWriter 사용
+   *         BufferedWriter.flush는 맨 마지막에 한 번 실행
+   */
 
   public void IOAB() throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
